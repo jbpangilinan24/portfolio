@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "watch": "webpack --mode production --watch",
-    "scss": "sass --watch theme/css/:theme/css/ --style=compressed --no-source-map"
+    "scss": "sass --watch docs/css/:docs/css/ --style=compressed --no-source-map"
   },
   "dependencies": {
     "@vimeo/player": "^2.22.0",
