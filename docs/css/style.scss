@@ -1,3 +1,40 @@
-h1 {
-	text-align: left;
+body {
+	margin: 0;
+}
+
+.hero-banner {
+	background: linear-gradient(-45deg, #021027, #010418, #1c1c3c, #000);
+  background-size: 400% 400%;
+  animation: gradientMove 15s ease infinite;
+  color: #fff;
+  padding: 3rem 1rem;
+  text-align: center;
+  border-bottom: 2px solid #0073aa;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	.name {
+		font-weight: 700;
+		font-size: 60px;
+		line-height: normal;
+		color: #fff;
+	}
+	.position {
+		color: #fff;
+		font-weight: 700;
+	}
+	.short-intro {
+		color: #f1f1f1;
+		font-size: 20px;
+		line-height: 28px;
+	}
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
