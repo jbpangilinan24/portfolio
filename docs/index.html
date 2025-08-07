@@ -4,61 +4,184 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>John Benedict Pangilinan | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <section class="hero-banner">
-    <h1 class="name">Hi, I'm John.</h1>
-    <div class="position">I'm a <span class="highlight">Wordpress Frontend Developer</span></div>
-    <p class="short-intro">I’m a WordPress Front-End Developer with 7 years of experience creating responsive, optimised websites and 1 year of PHP backend development. I specialise in converting designs into dynamic, user-friendly websites using WordPress, with recent experience building custom Beaver Builder modules to enhance flexibility and reusability across projects.</p>
+  <section class="j-hero-banner">
+    <div class="j-container">
+      <div class="j-text-wrap">
+        <h1 class="name">Hi, I'm John.</h1>
+        <div class="position">I'm a <span class="highlight">Wordpress Frontend Developer</span></div>
+        <p class="short-intro">I’m a WordPress Frontend Developer with 7 years of experience building responsive, optimised websites. I specialise in converting designs into dynamic, user-friendly websites using WordPress, with recent experience building custom Beaver Builder modules to enhance flexibility and reusability across projects.</p>
+        <ul class="j-social-wrap">
+          <li>
+            <a href="mailto:jbpangilinan245@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </li>
+          <li>
+            <a href="tel:09612956406">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/john-benedict-pangilinan-356312171/" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="animated-bg"></div>
   </section>
 
-  <section>
-    <h2>Professional Summary</h2>
-    <p>I have one year of experience in PHP programming and 7 years as a WordPress Front-End Developer. My background includes a solid foundation in WordPress development, allowing me to build and maintain dynamic, user-friendly websites.</p>
+  <section class="skills-section fade-section">
+    <div class="j-container">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skills-grid">
+        <li>WordPress / WooCommerce / Theme Development</li>
+        <li>Bootstrap / Zurb Foundation</li>
+        <li>CSS / SCSS</li>
+        <li>jQuery</li>
+        <li>PHP</li>
+        <li>PSD / Figma to WordPress</li>
+        <li>ACF for Dynamic Content</li>
+        <li>Beaver Builder Custom Modules</li>
+      </ul>
+    </div>
   </section>
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>WordPress / WooCommerce / Theme Development</li>
-      <li>Bootstrap / Zurb Foundation</li>
-      <li>CSS / SCSS</li>
-      <li>jQuery</li>
-      <li>PHP</li>
-      <li>PSD/Figma to WordPress</li>
-      <li>ACF for Dynamic Content</li>
-      <li>Beaver Builder Custom Modules</li>
-    </ul>
+  <section class="experience-section fade-section">
+    <div class="j-container">
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <div class="job-header">
+            <span class="job-title">WordPress Front-End Developer</span>
+            <span class="job-company">Jin & Co.</span>
+            <span class="job-dates">05/2022 – Present</span>
+          </div>
+          <ul class="job-tasks">
+            <li>Building from Figma designs</li>
+            <li>Creating modules using Beaver Builder</li>
+            <li>Ensuring responsiveness</li>
+          </ul>
+        </li>
+        <li>
+          <div class="job-header">
+            <span class="job-title">WordPress Front-End Developer</span>
+            <span class="job-company">Applyflow</span>
+            <span class="job-dates">10/2024 – 08/2025</span>
+          </div>
+          <ul class="job-tasks">
+            <li>Building from Figma designs</li>
+            <li>Creating modules using Beaver Builder</li>
+            <li>Ensuring responsiveness</li>
+          </ul>
+        </li>
+        <li>
+          <div class="job-header">
+            <span class="job-title">WordPress Front-End Developer</span>
+            <span class="job-company">Cloud 9 / White Label Media</span>
+            <span class="job-dates">06/2018 – 2023</span>
+          </div>
+          <ul class="job-tasks">
+            <li>Developing websites from PSD to WordPress</li>
+            <li>Fixing SEMrush issues</li>
+            <li>Responsive design</li>
+            <li>Speed optimisation (GTmetrix)</li>
+          </ul>
+        </li>
+        <li>
+          <div class="job-header">
+            <span class="job-title">Website Backend Developer</span>
+            <span class="job-company">JDEV</span>
+            <span class="job-dates">09/2017 – 02/2018</span>
+          </div>
+          <ul class="job-tasks">
+            <li>Full Stack Development</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+  
+  <section class="sample-works fade-section">
+    <div class="j-container">
+      <h2>Sample Works</h2>
+      
+      <div class="slick-arrows">
+        <button class="slick-prev"><i class="fas fa-chevron-left"></i></button>
+        <button class="slick-next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      
+      <div class="works-carousel">
+        <div class="work-item">
+          <a href="https://www.austineng.com/" target="_blank">
+            <img src="thumbnails/austineng.jpg" alt="Austin Engineering">
+            <span>Austin Engineering</span>
+          </a>
+        </div>
+        
+        <div class="work-item">
+          <a href="https://noonan.com.au/" target="_blank">
+            <img src="thumbnails/noonan.jpg" alt="Noonan">
+            <span>Noonan</span>
+          </a>
+        </div>
+
+        <div class="work-item">
+          <a href="https://standardchemicals.com.au/" target="_blank">
+            <img src="thumbnails/standardchemicals.jpg" alt="Standard Chemicals">
+            <span>Standard Chemicals</span>
+          </a>
+        </div>
+
+        <div class="work-item">
+          <a href="https://jinand.co/" target="_blank">
+            <img src="thumbnails/jinand.jpg" alt="Jinand Co">
+            <span>Jin and Co.</span>
+          </a>
+        </div>
+
+        <div class="work-item">
+          <a href="https://www.bespokecareers.com/" target="_blank">
+            <img src="thumbnails/bespoke.jpg" alt="Bespoke Careers">
+            <span>Bespoke Careers</span>
+          </a>
+        </div>
+
+        <div class="work-item">
+          <a href="https://au.hudson.com/" target="_blank">
+            <img src="thumbnails/hudson.jpg" alt="Hudson">
+            <span>Hudson</span>
+          </a>
+        </div>
+
+        <div class="work-item">
+          <a href="https://www.dreamjobz.com.au/" target="_blank">
+            <img src="thumbnails/dreamjobz.jpg" alt="DreamJobz">
+            <span>DreamJobz</span>
+          </a>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section>
-    <h2>Experience</h2>
-    <ul>
-      <li><strong>Website Backend Developer</strong> – JDEV (09/2017 – 02/2018)<br>• Full Stack Development</li>
-      <li><strong>WordPress Front-End Developer</strong> – Cloud 9 / White Label Media (06/2018 – 2023)<br>• Developing websites from PSD to WordPress<br>• Fixing SEMrush issues<br>• Responsive design<br>• Speed optimisation (GTmetrix)</li>
-      <li><strong>WordPress Front-End Developer</strong> – Applyflow (10/2024 – 08/2025)<br>• Building from Figma designs<br>• Creating modules using Beaver Builder<br>• Ensuring responsiveness</li>
-    </ul>
-  </section>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; <span id="year"></span> | John. All rights reserved.</p>
+    </div>
+  </footer>
 
-  <section>
-    <h2>Education</h2>
-    <p>Bachelor of Science in Information System – City College of Angeles (April 2017)</p>
-  </section>
-
-  <section>
-    <h2>Sample Works</h2>
-    <ul>
-      <li><a href="https://www.austineng.com/" target="_blank">Austin Engineering</a></li>
-      <li><a href="https://noonan.com.au/" target="_blank">Noonan</a></li>
-      <li><a href="https://standardchemicals.com.au/" target="_blank">Standard Chemicals</a></li>
-      <li><a href="https://jinand.co/" target="_blank">Jinand Co</a></li>
-      <li><a href="https://www.bespokecareers.com/" target="_blank">Bespoke Careers</a></li>
-      <li><a href="https://au.hudson.com/" target="_blank">Hudson</a></li>
-      <li><a href="https://www.dreamjobz.com.au/" target="_blank">DreamJobz</a></li>
-    </ul>
-  </section>
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>  
+  <script src="js/main.js"></script>
 </body>
 </html>
